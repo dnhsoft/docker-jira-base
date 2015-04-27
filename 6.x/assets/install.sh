@@ -2,7 +2,7 @@
 
 /bin/bash /jira-install.bin -q -varfile /response.varfile
 
-service jira stop
+/opt/atlassian/jira/bin/stop-jira.sh -fg
 
 mv /mysql-connector-java-5.1.35-bin.jar /opt/atlassian/jira/lib/
 
