@@ -8,4 +8,4 @@ RUN chmod -R +x /assets/*
 
 EXPOSE 8080
 
-CMD ["/opt/atlassian/jira/bin/start-jira.sh", "-fg"]
+CMD ["/assets/run.sh"]
